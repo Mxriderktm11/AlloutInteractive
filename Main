@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Allout Interactive</title>
+  <link href="alloutlogo.png" rel="icon" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href="Main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="TopBar">
+    <a href="Main.html" id="TopbarImage"><img style="width: auto; height: 140px;" src="alloutlogo.png"></a>
+    <a href="OurGames.html" id="Our Games TB" class="TopBar">OUR GAMES</a>
+    <a href="NowHiring.html" id="Now Hiring TB" class="TopBar">NOW HIRING!</a>
+    <a href="AboutUs.html" id="About Us TB" class="TopBar">ABOUT US</a>
+    <a href="ContactUs.html" id="Contact Us TB" class="TopBar" style="margin-right: 14px;">CONTACT US</a>
+  </div>
+  <div id="MainContent">
+    <div id="Banner" class="content">
+      <img id="BannerImage" src="websitebackground.png">
+      <a id="BannerText" class="">CREATING INTERACTIVE EXPERIENCES FOR ALL</a>
+      <div id="StatTracker" class="">
+        <div id="StatActive">
+          <a id="ActiveText">Active Players</a>
+          <a id="ActiveNumber">2,500</a>
+        </div>
+        <div id="StatDivide"></div>
+        <div id="StatVisit">
+          <a id="StatText">Total Portfolio Visits</a>
+          <a id="StatNumber">100.0M</a>
+        </div>
+      </div>
+    </div>
+    <div id="Info" class="content animate-element">
+      <div id="InfoGames" class="Info">
+        <a class="InfoStat">2</a>
+        <a class="InfoText">Games in Our Portfolio</a>
+        <div class="InfoBackgroundFrame">
+            <div class="InfoBackground"></div>
+            <div class="InfoBackground"></div>
+            <div class="InfoBackground"></div>
+        </div>
+      </div>
+      <div id="InfoVisits" class="Info">
+          <a class="InfoStat">123.4k</a>
+          <a class="InfoText">Player Visits Per Day</a>
+          <div class="InfoBackgroundFrame">
+            <div class="InfoBackground"></div>
+            <div class="InfoBackground"></div>
+            <div class="InfoBackground"></div>
+        </div>
+      </div>
+      <div id="InfoUGC" class="Info">
+        <a class="InfoStat">30+</a>
+        <a class="InfoText">Active UGC Items</a>
+        <div class="InfoBackgroundFrame">
+          <div class="InfoBackground"></div>
+          <div class="InfoBackground"></div>
+          <div class="InfoBackground"></div>
+      </div>
+      </div>
+    </div>
+    <div id="Games" class="content">
+      <a id="GamesTitle">Our
+        <img src="robloxlogo.png" style="width: 300px; height: auto; position: relative; top: 10px;">
+        Games
+      </a>
+      <div id="GamesLeftArrow" class="Arrow">←</div>
+      <div id="GamesRightArrow" class="Arrow">→</div>
+      <div id="GamesFrame" class="animate-element">
+        <div class="Games">
+          <img src="alloutinteractive.png" class="GameThumbnail">
+          <a class="GameTitle">Factory Fixers</a>
+          <a href="https://www.roblox.com/games/5288164730/Factory-Simulator" class="GameVisit">Visit!</a>
+        </div>
+        <div class="Games">
+          <img src="alloutinteractive.png" class="GameThumbnail">
+          <a class="GameTitle">Factory Fixers</a>
+          <a href="https://www.roblox.com/games/5288164730/Factory-Simulator" class="GameVisit">Visit!</a>
+        </div>
+        <div class="Games">
+          <img src="alloutinteractive.png" class="GameThumbnail">
+          <a class="GameTitle">Factory Fixers</a>
+          <a href="https://www.roblox.com/games/5288164730/Factory-Simulator" class="GameVisit">Visit!</a>
+        </div>
+        <div class="Games">
+          <img src="alloutinteractive.png" class="GameThumbnail">
+          <a class="GameTitle">Factory Fixers</a>
+          <a href="https://www.roblox.com/games/5288164730/Factory-Simulator" class="GameVisit">Visit!</a>
+        </div>
+        <div class="Games">
+          <img src="alloutinteractive.png" class="GameThumbnail">
+          <a class="GameTitle">Factory Fixers</a>
+          <a href="https://www.roblox.com/games/5288164730/Factory-Simulator" class="GameVisit">Visit!</a>
+        </div>
+        <div class="Games">
+          <img src="alloutinteractive.png" class="GameThumbnail">
+          <a class="GameTitle">Factory Fixers</a>
+          <a href="https://www.roblox.com/games/5288164730/Factory-Simulator" class="GameVisit">Visit!</a>
+        </div>
+      </div>
+    </div>
+    <div id="Collaborate" class="content animate-element">
+      <a id="CollTitle">For Creators</a>
+      <a id="CollDes">Reviving your game with professional work is only one messsage away</a>
+      <a href="ContactUs.html" id="CollContact">Contact Us!</a>
+      <div id="CollUI" class="CollFrame">
+        <img src="CodeIcon.png" class="CollImg">
+        <a class="CollTitle">New UI</a>
+        <a class="CollDes">Refresh your UI with custom, unique UI</a>
+        <a class="CollSeeEx">See Examples</a>
+      </div>
+      <div id="CollFx" class="CollFrame">
+        <img src="CodeIcon.png" class="CollImg">
+        <a class="CollTitle">New FX</a>
+        <a class="CollDes">Give your game lively new fx</a>
+        <a class="CollSeeEx">See Examples</a>
+      </div>
+      <div id="CollScripting" class="CollFrame">
+        <img src="CodeIcon.png" class="CollImg">
+        <a class="CollTitle">Scripting Refresh</a>
+        <a class="CollDes">Fix bugs and add new functionality</a>
+        <a class="CollSeeEx">See Examples</a>
+      </div>
+      <div id="CollBuilds" class="CollFrame">
+        <img src="CodeIcon.png" class="CollImg">
+        <a class="CollTitle">New Builds</a>
+        <a class="CollDes">Give your game a face lift with low and high poly models/builds</a>
+        <a class="CollSeeEx">See Examples</a>
+      </div>
+    </div>
+    <div id="AboutUs" class="content">
+      <a id="AboutUsTitle">About Us</a>
+      <div id="AboutUsLeftArrow" class="Arrow">←</div>
+      <div id="AboutUsRightArrow" class="Arrow">→</div>
+      <div id="AboutUsFrame" class="animate-element">
+        <div class="AboutUs">
+          <img src="sexy_long_rrp.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">Rhys</a>
+          <a class="AboutUsRole">Founder, CEO</a>
+          <a href="https://www.linkedin.com/in/rhys-robert-perkins-3165a728b/" class="AboutUsVisit">Contact</a>
+        </div>
+        <div class="AboutUs">
+          <img src="hiddenwagpfp.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">Hiddenwag</a>
+          <a class="AboutUsRole">Director</a>
+          <a href="https://twitter.com/i123ip123" class="AboutUsVisit">Contact</a>
+        </div>
+        <div class="AboutUs">
+          <img src="alloutinteractive.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">Youf_Dev</a>
+          <a class="AboutUsRole">Scripter</a>
+          <a href="" class="AboutUsVisit">Contact</a>
+        </div>
+        <div class="AboutUs">
+          <img src="ProfilePic.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">Mxrider</a>
+          <a class="AboutUsRole">Scripter</a>
+          <a href="https://twitter.com/Mxriderktm11_" class="AboutUsVisit">Contact</a>
+        </div>
+        <div class="AboutUs">
+          <img src="zeppypfp.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">Zeppy</a>
+          <a class="AboutUsRole">UI Designer</a>
+          <a href="https://twitter.com/ZeppyUI" class="AboutUsVisit">Contact</a>
+        </div>
+        <div class="AboutUs">
+          <img src="alloutinteractive.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">TBG</a>
+          <a class="AboutUsRole">Scripter</a>
+          <a href="" class="AboutUsVisit">Contact</a>
+        </div>
+        <div class="AboutUs">
+          <img src="copopfp.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">Copo</a>
+          <a class="AboutUsRole">Modeler/Builder</a>
+          <a href="https://twitter.com/Copo_YT" class="AboutUsVisit">Contact</a>
+        </div>
+        <div class="AboutUs">
+          <img src="jolcnpfp.png" class="AboutUsPFP">
+          <a class="AboutUsTitle">Jolcn</a>
+          <a class="AboutUsRole">Animator</a>
+          <a href="https://twitter.com/JnRBLX" class="AboutUsVisit">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div id="Footer" class="content">
+      <div id="FooterSocial" class="animate-element">
+        <a href="https://www.linkedin.com/company/allout-interactive/" class="FooterSocial">
+          <img src="linkedin.png" class="FooterSocialImg">
+        </a>
+        <a href="https://twitter.com/home" class="FooterSocial">
+          <img src="twitter-logo-shape.svg" class="FooterSocialImg">
+        </a>
+        <a href=" " class="FooterSocial">
+          <img src="tiktok.png" class="FooterSocialImg">
+        </a>
+        <a href="https://discord.gg/BtWwyu5mkg" class="FooterSocial">
+          <img src="discord-mark-black.png" class="FooterSocialImg">
+        </a>
+      </div>
+      <span id="CreditText">Website By
+        <a href="https://twitter.com/Mxriderktm11_" style="text-decoration: none; color:white;">@Mxriderktm11_</a>
+      </span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
